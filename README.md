@@ -12,7 +12,7 @@ The dataset is available on Kaagle [here](https://www.kaggle.com/pavansubhasht/i
 - education
 - job level, salary....
 
-It also comprizes information on the employee's motivation, performance, etc... which can be collected by managers during appraisal and annual reviews.
+It also comprizes information on the employee's motivation, performance, working conditions etc... which can be collected by managers during appraisal and annual reviews.
 All in all, the dataset contains 35 KPIs which will be used as features to develop a predictive model for resignation.
 
 For each employee, the dataset indicates whether the employee is still with the company or if the employee left. This is called 'Attrition'. This is the response variable to predict.
