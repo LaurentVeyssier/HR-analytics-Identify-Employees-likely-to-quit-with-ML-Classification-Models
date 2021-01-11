@@ -25,6 +25,8 @@ In this project, the objective is to build a classifier able to indicate whether
 # Data exploration
 The dataset is highly unbalanced with only 16% of the records correspondign to 'leavers'. This means that a classification model can achieve 84% accuracy by classifying all employees as 'not leavers' despite being useless.
 
+![](asset/attrition.jpg)
+
 In the exploration phase, the project :
 - performs data wrangling and cleaning
 - analyzes the relationship between the features and the response variable
