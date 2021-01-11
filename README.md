@@ -40,10 +40,10 @@ I explore several ML models and compare their performance.
 
 All models suffer from the imbalanced dataset during learning phase.
 To mitigate, I use:
-- data augmentation with SMOTE
+- data augmentation with SMOTE (Synthetic Minority Over-sampling Technique)
 - class weight adjustment
 
-These technics allow to improve the detection of the 'leavers" in the unseen test set.
+These techniques allow to improve the detection of the 'leavers" in the unseen test set.
 
 # Results
 From all options, the best results are achieved with Logistic Regression Classifier using SMOTE and adjusted weights to counter the class imbalance.
