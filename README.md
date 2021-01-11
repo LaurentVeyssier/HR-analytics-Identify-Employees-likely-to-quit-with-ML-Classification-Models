@@ -5,7 +5,7 @@ Leverage HR measures to build a classification model and detect employees likely
 This notebook aims to predict employees with the highest risk to resign. The challenge 'HR Analytics Employee Attrition & Performance' is available on Kaagle with the objective to classify attrition of employees.
 
 # Dataset
-The dataset is available on Kaagle [here](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset). The dataset is composed of HR records on 1470 employees providing various information such as:
+The dataset is available on kaggle [here](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset). The dataset is composed of HR records on 1470 employees providing various information such as:
 - age
 - marital status
 - years of service
