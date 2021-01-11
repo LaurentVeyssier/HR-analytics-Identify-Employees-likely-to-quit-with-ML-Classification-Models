@@ -57,5 +57,10 @@ From all options, the best results are achieved with Logistic Regression Classif
 Yet the performance to detect 'leavers' remains disappointing, and we must balance between improved detection but high number of false positive and disappointing detection (let's say 50% of leavers) but very low false positives. False positives are an issue as it will dilute the company attention and actions.
 - To improve the model further, HR features should be enriched with new indicators more relevant to the classification task.
 
+decision tree output:
+
+![](asset/decision_tree.png)
+
 # Dependencies
 Visualizations are performed using matplotlib, seaborn and ggplot librairies.
+sklearn
