@@ -35,6 +35,7 @@ In the exploration phase, the project :
 # Classification Model
 I explore several ML models and compare their performance.
 - Logistic regression
+- Decision tree
 - RandomForest (ensemble method)
 - Simple fully connected neural network in tensorflow
 
@@ -50,6 +51,8 @@ From all options, the best results are achieved with Logistic Regression Classif
 - Optimal adjusted weights are found using GridSearch optimizing F1 score
 - Performance must be defined depending on the objective. Higher true positive detection will also lead to higher false positives.
 - Best performance was 0.59 F1 score, yielding 66% detection on the true positive
+
+![](asset/ROC.jpg)
 
 Yet the performance to detect 'leavers' remains disappointing, and we must balance between improved detection but high number of false positive and disappointing detection (let's say 50% of leavers) but very low false positives. False positives are an issue as it will dilute the company attention and actions.
 - To improve the model further, HR features should be enriched with new indicators more relevant to the classification task.
