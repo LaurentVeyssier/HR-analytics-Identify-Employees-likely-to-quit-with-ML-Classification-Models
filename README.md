@@ -38,19 +38,21 @@ I explore several ML models and compare their performance.
 - RandomForest (ensemble method)
 - Simple fully connected neural network in tensorflow
 
-All models suffer from the imbalance dataset during learning phase.
-To metigate the impact I use:
+All models suffer from the imbalanced dataset during learning phase.
+To mitigate, I use:
 - data augmentation with SMOTE
 - class weight adjustment
 
-These technics (and their combination) allow to improve the detection of the 'leavers" in the unseen test set.
+These technics allow to improve the detection of the 'leavers" in the unseen test set.
 
 # Results
 From all options, the best results are achieved with Logistic Regression Classifier using SMOTE and adjusted weights to counter the class imbalance.
 - Optimal adjusted weights are found using GridSearch optimizing F1 score
 - Performance must be defined depending on the objective. Higher true positive detection will also lead to higher false positives.
 - Best performance was 0.59 F1 score, yielding 66% detection on the true positive
-- To improve the model further, features should be enriched with new indicators very relevant to the classification task.
+
+Yet the performance to detect 'leavers' remains disappointing, and we must balance between improved detection but with high number of false positive and disappointing detection (let's say 50% of leavers) but low false positives. False positives are an issue as it will dilute the company attention and actions.  
+- To improve the model further, HR features should be enriched with new indicators more relevant to the classification task.
 
 # Dependencies
 Visualizations are performed using matplotlib, seaborn and ggplot librairies.
