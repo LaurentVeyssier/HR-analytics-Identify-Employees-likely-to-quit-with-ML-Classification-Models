@@ -1,5 +1,5 @@
-# HR-analytics-Predicting-Resignation-and-Uncover-key-decision-drivers
-Analyze a set a Employee HR measures to build a predictive model and detect early signs of resignation risk
+# HR-analytics-Identify-Employees-likely-to-quit
+Leverage HR measures to build a classification model and detect employees likely to leave the company
 
 
 This notebook aims to predict employees with the highest risk to resign. The project 'HR Analytics Employee Attrition & Performance' can be followed on Kaagle with the following challenge to Predict attrition of the valuable employees.
